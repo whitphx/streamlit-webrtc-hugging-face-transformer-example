@@ -16,7 +16,7 @@ result_queue: queue.Queue = (
 )  # TODO: A general-purpose shared state object may be more useful.
 
 
-@st.experimental_singleton
+@st.cache_resource
 def get_pipeline():
     return pipeline("object-detection", model="hustvl/yolos-small")
 

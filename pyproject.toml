@@ -9,7 +9,7 @@ packages = [{include = "streamlit_webrtc_hugging_face_transformer_example"}]
 
 [tool.poetry.dependencies]
 python = "^3.9,<3.11,!=3.9.7"
-streamlit = "==1.17.0"
+streamlit = "^1.18.0"
 streamlit-webrtc = "^0.44.2"
 transformers = "^4.26.1"
 torch = "^1.13.1"
